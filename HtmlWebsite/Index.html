@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Hi Ho Website</title>
+	<link rel="stylesheet" type="text/css" href="site.css">
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+</head>
+<body>
+<nav>
+	Overview<br>
+	About
+</nav>
+<section>
+	<h1>Overview</h1>
+	Greates game ever!<br>
+	<br>
+	Enter your name: <input id="Name" value="">
+	<button onclick="setName()">Set Name</button>
+	<p id="output"></p>
+	<script>
+		function setName() {
+			document.getElementById("output").innerHTML =
+				document.getElementById("Name").value;
+		}
+	</script>
+	<br>
+	<br>
+	<div id="map" style="height: 600px; width: 800px;"></div>
+	<script>
+		var mapCanvas = document.getElementById("map");
+		var mapOptions = {
+			center: new google.maps.LatLng(52.5125, 13.4198),
+			zoom: 18
+		};
+		var map = new google.maps.Map(mapCanvas, mapOptions);
+	</script>
+</section>
+</body>
+</html>

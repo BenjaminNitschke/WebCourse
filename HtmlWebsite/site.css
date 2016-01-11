@@ -1,0 +1,15 @@
+nav {
+	float: left;
+	width: 140px;
+	height: 200px;
+	background-color: lightgray;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-top: 15px;
+	font-size: 30px;
+	color: gray;
+}
+section {
+	float: left;
+	margin-left: 20px;
+}
