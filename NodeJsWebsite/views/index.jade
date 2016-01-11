@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  ul
+    each user, rank in scores
+      li #{rank+1}. #{user.Username} Score: #{user.Score}

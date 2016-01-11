@@ -1,0 +1,21 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+nav {
+	float: left;
+	width: 140px;
+	height: 200px;
+	background-color: lightgray;
+	line-height: 34px;
+	padding-left: 10px;
+	padding-top: 15px;
+	font-size: 20px;
+	color: gray;
+}
+section {
+	float: left;
+	margin-left: 20px;
+}
