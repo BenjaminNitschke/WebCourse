@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspMvcWebsite", "AspMvcWebsite\AspMvcWebsite.csproj", "{2E38AD4B-6E0A-4C0F-9822-FB9799FD8E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspMvcWebsite.Tests", "AspMvcWebsite.Tests\AspMvcWebsite.Tests.csproj", "{550855A6-2A6B-4FAC-8AAE-694DBEE89234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E38AD4B-6E0A-4C0F-9822-FB9799FD8E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E38AD4B-6E0A-4C0F-9822-FB9799FD8E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E38AD4B-6E0A-4C0F-9822-FB9799FD8E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E38AD4B-6E0A-4C0F-9822-FB9799FD8E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550855A6-2A6B-4FAC-8AAE-694DBEE89234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550855A6-2A6B-4FAC-8AAE-694DBEE89234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550855A6-2A6B-4FAC-8AAE-694DBEE89234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550855A6-2A6B-4FAC-8AAE-694DBEE89234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dl-horizontal dt {
+    white-space: normal;
+}
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+nav {
+	float: left;
+	width: 140px;
+	height: 200px;
+	background-color: lightgray;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-top: 15px;
+	font-size: 30px;
+	color: gray;
+}
+section {
+	float: left;
+	margin-left: 20px;
+	width: 70%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+th {
+    background-color: #4CAF50;
+    color: white;
+}

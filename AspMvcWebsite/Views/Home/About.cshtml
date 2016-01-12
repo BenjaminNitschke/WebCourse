@@ -1,0 +1,15 @@
+﻿@{
+	ViewBag.Title = "About";
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+}
+<h2>@ViewBag.Title.</h2>
+Greatest game company ever, you can find us at:<br />
+<div id="map" style="height: 600px; width: 800px;"></div>
+<script>
+		var mapCanvas = document.getElementById("map");
+		var mapOptions = {
+			center: new google.maps.LatLng(52.5125, 13.4198),
+			zoom: 18
+		};
+		var map = new google.maps.Map(mapCanvas, mapOptions);
+</script>
