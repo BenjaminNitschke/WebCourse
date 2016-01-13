@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Pong About</title>
+	<link rel="stylesheet" href="app.css" type="text/css" />
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="jquery-2.2.0.min.js"></script>
+</head>
+<body>
+	<nav>
+		<a href="index.html">Highscores</a><br>
+		<a href="about.html">About</a>
+	</nav>
+	<section>
+		<h1>Pong About</h1>
+		Greatest game company ever, you can find us at:<br />
+		<div id="map" style="height: 600px; width: 800px;"></div>
+		<script>
+		var mapCanvas = document.getElementById("map");
+		var mapOptions = {
+			center: new google.maps.LatLng(52.5125, 13.4198),
+			zoom: 18
+		};
+		var map = new google.maps.Map(mapCanvas, mapOptions);
+		</script>
+	</section>
+</body>
+</html>
